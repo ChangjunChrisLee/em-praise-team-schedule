@@ -8,13 +8,13 @@ const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby2p0Ajx
 const LOCAL_STORAGE_KEY = "em-praise-team-schedule-v2";
 
 const ROLE_LIMITS = {
-  "리드보컬": 1,
-  "보컬": 3,
-  "키보드": 1,
-  "기타": 1,
-  "베이스": 1,
-  "드럼": 1,
-  "미디어/모듈레이터": 1,
+  "리드보컬": 2,
+  "보컬": 10,
+  "키보드": 2,
+  "기타": 2,
+  "베이스": 2,
+  "드럼": 2,
+  "미디어/모듈레이터": 2,
 };
 
 const INITIAL_PEOPLE = [
