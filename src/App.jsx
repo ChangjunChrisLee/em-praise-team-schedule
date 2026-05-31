@@ -220,7 +220,7 @@ export default function App() {
         <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <h1 className="text-3xl font-bold tracking-tight md:text-4xl">EM Praise Team Schedule</h1>
-            <p className="mt-3 text-base text-slate-600">① 이름 선택 → ② 가능한 날짜 선택 → ③ 원하는 포지션 선택</p>
+            <p className="mt-3 text-base text-slate-600">① 이름 선택 → ② 가능한 날짜 선택 → ③ 원하는 포지션 선택 → ④ 저장 클릭</p>
           </div>
           <Card className="rounded-2xl border-none shadow-sm">
             <CardContent className="flex items-center gap-3 p-4">
